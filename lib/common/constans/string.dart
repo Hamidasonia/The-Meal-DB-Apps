@@ -1,0 +1,1 @@
+const kSAppName = "The Meal App";
