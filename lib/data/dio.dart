@@ -15,17 +15,6 @@ class Dio {
   Dio({Map<String, dynamic>? headers}) {
     _dio = d.Dio();
     _helper = Helper();
-    // _dio.options = d.BaseOptions(
-    //   baseUrl: API.baseUrl,
-    //   connectTimeout: 20000,
-    //   receiveTimeout: 20000,
-    //   responseType: ResponseType.json,
-    //   headers: headers ??
-    //       {
-    //         "Accept": "application/json",
-    //         "Content-Type": "application/json",
-    //       },
-    // );
     _dio.interceptors.add(
       d.InterceptorsWrapper(
           onRequest: (d.RequestOptions o, d.RequestInterceptorHandler h) =>

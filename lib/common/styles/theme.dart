@@ -16,7 +16,6 @@ ThemeData tdMain(BuildContext context) => ThemeData(
       primaryColor: Colors.blue,
       colorScheme: const ColorScheme.dark(primary: Colors.blue),
       primaryColorDark: Colors.blueGrey,
-      primaryTextTheme: const TextTheme(headline6: TextStyle(color: Colors.blue)),
       dividerColor: Colors.blue,
       appBarTheme: AppBarTheme(
         color: hBlack,

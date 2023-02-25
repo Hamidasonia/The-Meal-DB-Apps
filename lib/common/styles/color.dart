@@ -20,5 +20,5 @@ MaterialColor _convertMateial(int red, int green, int blue) {
     900: Color.fromRGBO(red, green, blue, 1),
   };
 
-  return new MaterialColor(0xFF93cd48, _colorCodes);
+  return MaterialColor(0xFF93cd48, _colorCodes);
 }
